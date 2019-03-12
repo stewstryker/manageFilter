@@ -24,7 +24,7 @@
     "apex" : {
       "versions" : ["18.1","18.2"],
       "plugin" : {
-        "internalName" : "NL.APEXCONSULTING.IG_MANAGE_FILTER,
+        "internalName" : "NL.APEXCONSULTING.IG_MANAGE_FILTER",
         "type" : "dynamic action",
         "demo" : "https://apex.oracle.com/pls/apex/f?p=131155:5",
         "previewImage" : "https://github.com/APEXGru/manageFilter/raw/master/preview.png"
