@@ -1,0 +1,34 @@
+{
+  "name" : "IG manageFilter",
+  "version" : "1.0.0",
+  "description" : "Dynamic Action plugin to add and delete filters on the Interactive Grid",
+  "keywords" : ["Interactive","Grid"],
+  "homepage" : "https://github.com/APEXGru/manageFilter",
+  "bugs" : {
+    "url" : "https://github.com/APEXGru/manageFilter/issues",
+    "email" : "roelhartman@gmail.com"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Roel Hartman",
+    "email" : "roelhartman@gmail.com",
+    "url" : "http://roelhartman.blogspot.com",
+    "twitter" : "RoelH"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/APEXGru/manageFilter.git"
+  },
+  "oracle" : {
+    "versions" : [ "12.1", "12.2"],
+    "apex" : {
+      "versions" : ["18.1","18.2"],
+      "plugin" : {
+        "internalName" : "NL.APEXCONSULTING.IG_MANAGE_FILTER,
+        "type" : "dynamic action",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=131155:5",
+        "previewImage" : "https://github.com/APEXGru/manageFilter/raw/master/preview.png"
+      }
+    }
+  }
+}
