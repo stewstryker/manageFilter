@@ -20,9 +20,9 @@
     "url" : "https://github.com/APEXGru/manageFilter.git"
   },
   "oracle" : {
-    "versions" : [ "12.1", "12.2"],
+    "versions" : [ "12.1.0.0", "12.2.0.0", "18.1.0.0", "18.2.0.0", "18.3.0.0"],
     "apex" : {
-      "versions" : ["18.1","18.2"],
+      "versions" : ["18.1.0","18.2.0"],
       "plugin" : {
         "internalName" : "NL.APEXCONSULTING.IG_MANAGE_FILTER",
         "type" : "dynamic action",
