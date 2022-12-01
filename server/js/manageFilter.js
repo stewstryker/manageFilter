@@ -11,7 +11,7 @@ var manageFilter = {
     var vCaseSensitive      = ( da.action.attribute08 == "Y" );  
     var vRefreshData        = ( da.action.attribute09 == "Y" );  
     var vSkipNoChangesCheck = ( da.action.attribute10 == "Y" );  
-    var vInSeparator        = ( da.action.attribute11 == "Y" );  
+    var vInSeparator        = da.action.attribute11;  
 
     var vRegion = apex.region( da.affectedElements[0].id );
     
